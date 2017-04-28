@@ -15,14 +15,14 @@
 <div class="w3-content" style="max-width:800px">
 <?php    
 $compteur = 0;
-if ($dossier = opendir ( "pdf/competance" )) {
+if ($dossier = opendir ( "pdf/competance/" )) {
 //echo "Répertoire existant";
 	while ( false !== ($fichier = readdir ( $dossier )) ) {
 	$lg = strlen ( $fichier );
 	$extension = substr ( $fichier, $lg - 4 );
-            if ($extension == ".pdf" || $extension == ".PDF" ) {
+            if ($extension == ".jpg" || $extension == ".JPG" ||$extension == ".pdf" || $extension == ".PDF" ) {
 //echo "ajout $fichier <br/>";
-	echo '<img class="mySlides" src="pdf/competance/'.$fichier.'" style="width:100%" height=100%>';
+	echo '<ifram class="mySlides" src="pdf/competance/'.$fichier.'" style="width:50%" height=75%>';
         $compteur++;
 		}
 	}

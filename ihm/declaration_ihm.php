@@ -25,4 +25,4 @@
 
 </head>
 <div style="color: #ffffff;">
-<body background =img/fond.jpg> 
+<body background =img/fond2.jpg> 

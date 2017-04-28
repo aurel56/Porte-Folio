@@ -9,4 +9,6 @@
     <a href="techno.php"><i class="fa fa-rss-square"></i><span>Veilles techno</span></a>
     <a href="contact.php"><i class="fa fa-linkedin-square"></i><span>Contact</span></a>
     <a href="end.php"><i class="fa fa-google"></i><span>Google</span></a>
+<a href="mail.php"><i class="fa fa-google"></i><span>mail</span></a>
+    
 </nav>
