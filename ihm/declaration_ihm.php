@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>P.Folio Aurélien Héliou </title>
-
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="assets/demo.css">
     <link rel="stylesheet" href="assets/navigation-dark.css">
     <link rel="stylesheet" href="assets/slicknav/slicknav.min.css">
@@ -24,5 +24,5 @@
     
 
 </head>
-<div style="color: #ffffff;">
-<body background =img/fond2.jpg> 
+<div style="color: #ffffff;">    
+    <body background =img/fond2.jpg>

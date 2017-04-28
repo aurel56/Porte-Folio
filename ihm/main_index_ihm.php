@@ -1,8 +1,8 @@
 
 
     
-    <p class="texte"><h2><justify><b>Je m'appelle Héliou Aurélien.</h2></b>
-    <h3> Après avoir passé 15 ans dans l'industrie métallurgique, je me suis lancé un nouveau défi :<br>
+    <p class="texte"><h2><center><b>Je m'appelle Héliou Aurélien.</h2></b>
+    <p class="texte"><h2><center><h3> Après avoir passé 15 ans dans l'industrie métallurgique, je me suis lancé un nouveau défi :<br>
         apprendre le métier de développeur informatique grace au Greta de Bretagne sud </br>
         en passant un BTS SIO option SLAM : </br> 
         Services Informatiques aux Organisations opt Solutions Logicielles et Applications Métiers .</br></br>
@@ -13,7 +13,7 @@
     </br></br>
     
     
-    <p><h2><b><u>Présentation du BTS SIO</u></b></h2></b> 
+    <p class="texte"><h3><center>><h2><b><u>Présentation du BTS SIO</u></b></h3></b> 
 
 
     <h3> Le BTS SIO prépare à deux métiers distincts, représentés par les deux spécialités du diplôme :<br><br>
