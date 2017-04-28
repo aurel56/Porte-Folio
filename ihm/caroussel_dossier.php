@@ -15,14 +15,14 @@
 <div class="w3-content" style="max-width:800px">
 <?php    
 $compteur = 0;
-if ($dossier = opendir ( "pdf/competance/" )) {
+if ($dossier = opendir ( "pdf/competance/image" )) {
 //echo "Répertoire existant";
 	while ( false !== ($fichier = readdir ( $dossier )) ) {
 	$lg = strlen ( $fichier );
 	$extension = substr ( $fichier, $lg - 4 );
             if ($extension == ".jpg" || $extension == ".JPG" ||$extension == ".pdf" || $extension == ".PDF" ) {
 //echo "ajout $fichier <br/>";
-	echo '<ifram class="mySlides" src="pdf/competance/'.$fichier.'" style="width:50%" height=75%>';
+	echo '<img class="mySlides" src="pdf/competance/image/'.$fichier.'" style="width:30%" height=75%>';
         $compteur++;
 		}
 	}
@@ -32,15 +32,15 @@ if ($dossier = opendir ( "pdf/competance/" )) {
 
     
     ?>
-  <!--<img class="mySlides" src="img/CP/claudine_ps_ateliers.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_02.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_03.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_04.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_05.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_06.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_ateliers_07.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_avant_recre.jpg" style="width:60%">
-  <img class="mySlides" src="img/CP/claudine_ps_avant_recre_02.jpg" style="width:60%">-->
+ <!-- <img class="mySlides" src="pdf/competance/image/A113.jpg" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">
+  <img class="mySlides" src="pdf/competance/image/" style="width:60%">-->
 </div>
 
 <div class="w3-center">
