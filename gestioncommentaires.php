@@ -2,7 +2,7 @@
 /* Fichier PHP: "gestioncommentaires.php"
 +------------------------------------------------------------------------------+
 | Extension pour une fonction "ajout de commentaires"                          |
-| Tedheu 2009, version 1.0 (fr),        mise à jour le 09 novembre 2009        |
+|S      |
 | Module script PHP de gestion des commentaires                                |
 | fonctionne de paire avec le module JavaScript "commentaires.js"              |
 +------------------------------------------------------------------------------+

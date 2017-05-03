@@ -15,7 +15,7 @@ include "ihm/menu/menu_ihm.php"; ?>
     <form name="commentaire_bouton" id="commentaire_form_A" action="" method="" onsubmit="return false;" style="display: Block">
         <input type="button" value="laisser un commentaire" onclick="Affiche_form_B()">
     </form>
-    <form name="commentaire_saisie" id="commentaire_form_B" action="" method="" onsubmit="return false;" style="display: None">
+    <form name="commentaire_saisie" id="commentaire_form_B" action="" method="" onsubmit="return false;" style="display: Block">
 		<fieldset>
         <legend>Vous pouvez saisir un commentaire ...</legend>
 			Votre nom (<i><small>ou pseudo</small></i>):<br><input name="nom" type="text" size="20"><br>
