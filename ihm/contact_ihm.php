@@ -244,3 +244,4 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
             <h3><a href="https://fr.linkedin.com/in/aurelienheliou"target="_blank"><img src="img/linkedin.jpg" width=25%></a></h3>
             <h3><a href="http://www.viadeo.com/invitation/aurelien.heliou"target="_blank"><img src="img/viadeo.jpg" width=25%></a></h3>
 	</div>
+
