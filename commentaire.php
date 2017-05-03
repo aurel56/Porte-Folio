@@ -17,16 +17,16 @@ include "ihm/menu/menu_ihm.php"; ?>
     </form>
     <form name="commentaire_saisie" id="commentaire_form_B" action="" method="" onsubmit="return false;" style="display: Block">
 		<fieldset>
-        <legend>Vous pouvez saisir un commentaire ...</legend>
+                    <legend><h1>Vous pouvez saisir un commentaire ...</legend><br>
 			Votre nom (<i><small>ou pseudo</small></i>):<br><input name="nom" type="text" size="20"><br>
-			Saisissez le commentaire que vous voulez ajouter:<BR>
+                        Saisissez le commentaire que vous voulez ajouter:<BR></h1>
 			<textarea name="commentaire" cols="60" rows="4" wrap="soft"></textarea>
 			<input name="annuler" type="button" value="Annuler" onclick="Annuler()"><br>
 			<input name="envoyermodifier" type="button" value="Envoyer" onclick="Envoyer_modifier()">&nbsp;&nbsp;
 			<input name="terminer" type="button" value="Terminer" onclick="Terminer()" style="display: None">
         </fieldset>
     </form>
-    <div id="liste_des_messages">&nbsp;</div>
+    <h2><div id="liste_des_messages">&nbsp;</div></h2>
 </div>
 <script language="JavaScript" type="text/javascript" src="commentaires.js"></script>
 <!-- fin du bloc commentaires -->
