@@ -236,6 +236,8 @@ if (($err_formulaire) || (!isset($_POST['envoi'])))
 }(document, "script"));
 </script>
 <!-- Do not change the code! -->
+
+
 			
                         <h2><p><div><img src="img/phone.png" width=4% align="center" > Au 06.49.35.94.63 </div></p></h2>
             <h4 >Présent également sur LinkedIn et Viadeo</h4>
