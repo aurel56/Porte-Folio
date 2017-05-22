@@ -6,6 +6,7 @@
     <a href="Conseil.php" class="menu-green"><i class="fa fa-folder-o"></i><span>conseil d'école</span></a>
     <a href="#" class="menu-yellow"><i class="fa fa-group"></i><span>association P-éleves</span></a>
     <a href="contact.php" class="menu-red"><i class="fa fa-envelope"></i><span>contact</span></a>
+    <a href="commentaire.php"class="menu-blue2"><i class="fa fa-pencil"></i><span>commentaire</span></a>
     
     
 </nav>
