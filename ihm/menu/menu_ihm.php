@@ -8,7 +8,7 @@
     <a href="stage.php"><i class="fa fa-thumbs-o-up"></i><span>Stages</span></a>        
     <a href="techno.php"><i class="fa fa-rss-square"></i><span>Veilles techno</span></a>
     <a href="contact.php"><i class="fa fa-linkedin-square"></i><span>Contact</span></a>
-    <a href="commentaire.php"><i class="fa fa-pencil"></i><span>commentaire</span></a>
+    <!--<a href="commentaire.php"><i class="fa fa-pencil"></i><span>commentaire</span></a>-->
     <a href="end.php"><i class="fa fa-google"></i><span>Google</span></a>
     
 </nav>
